@@ -8,6 +8,7 @@ export function Widget() {
   const config = {
     variant: "wide",
     appearance: "system",
+    fee: 0.01,
     theme: {
       colorSchemes: {
         light: {
@@ -108,7 +109,7 @@ export function Widget() {
 
   return (
     <ClientOnly fallback={<WidgetSkeleton config={config} />}>
-      <LiFiWidget config={config} integrator="nextjs-example" />
+      <LiFiWidget config={config} integrator="superpositionso" />
     </ClientOnly>
   );
 }
