@@ -109,7 +109,7 @@ export function Widget() {
 
   return (
     <ClientOnly fallback={<WidgetSkeleton config={config} />}>
-      <LiFiWidget config={config} integrator="superpositionso" />
+      <LiFiWidget config={config} integrator="superposition" />
     </ClientOnly>
   );
 }
