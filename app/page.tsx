@@ -137,7 +137,7 @@ export default function Home() {
           <img src="/logo.svg" width="100%" />
         </div>
         <div>
-          <button onClick={togglePlay} style={{ marginBottom: '20px', padding: '10px 20px', borderRadius: '8px', cursor: 'pointer' }}>
+          <button onClick={togglePlay} style={{ position: 'absolute', bottom: '20px', left: '20px', padding: '10px 20px', borderRadius: '8px', cursor: 'pointer' }}>
             {isPlaying ? 'Pause Music' : 'Play Music'}
           </button>
           <Widget />
