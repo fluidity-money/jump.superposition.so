@@ -141,13 +141,18 @@ export default function Home() {
           <img src="/logo.svg" width="100%" />
         </div>
         <div>
-          <button onClick={togglePlay} style={{ position: 'absolute', bottom: '20px', left: '20px', padding: '10px 20px', borderRadius: '8px', cursor: 'pointer' }}>
-            {isPlaying ? 'Pause Music' : 'Play Music'}
-          </button>
           <Widget />
           <div className="quote">
             {quote}
           </div>
+        </div>
+        <div style={{ position: 'absolute', bottom: '20px', left: '20px', display: 'flex', alignItems: 'center' }}>
+          <button onClick={togglePlay} style={{ padding: '10px 20px', borderRadius: '8px', cursor: 'pointer' }}>
+            {isPlaying ? 'Pause Music' : 'Play Music'}
+          </button>
+          <a href="https://unsplash.com/photos/cluster-of-star-illustration-f7YQo-eYHdM" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '15px',  padding: '10px 20px', borderRadius: '8px', cursor: 'pointer', backgroundColor: 'white',  }}>
+            Image credits
+          </a>
         </div>
       </div>
     </main>
