@@ -112,7 +112,7 @@ const songs = ["galaxy-1.mp3", "galaxy-2.mp3"];
 export default function Home() {
   const [quote, setQuote] = useState('');
   const [isPlaying, setIsPlaying] = useState(false);
-  const audioRef = useRef(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     setQuote(quotes[Math.floor(Math.random() * quotes.length)]);
