@@ -5,7 +5,11 @@ export default function Home() {
   return (
     <main>
       <WidgetEvents />
-      <Widget />
+      <div style={{height: "100%", display: "flex", flexDirection: "column", justifyContent: "center"}}>
+        <div>
+          <Widget />
+        </div>
+      </div>
     </main>
   )
 }
