@@ -8,7 +8,12 @@ const _inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Superposition Jump',
-  description: 'Bridge to Superposition using Lifi',
+  description: 'Bridge to Superposition using Superposition Jump',
+  openGraph: {
+    title: 'Superposition Jump',
+    description: 'Bridge to Superposition using Superposition Jump',
+    images: ['/opengraph.png'],
+  },
 }
 
 export default function RootLayout({
