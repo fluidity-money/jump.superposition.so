@@ -116,7 +116,9 @@ export default function Home() {
 
   useEffect(() => {
     setQuote(quotes[Math.floor(Math.random() * quotes.length)]);
-    audioRef.current.src = songs[Math.floor(Math.random() * songs.length)];
+    if (audioRef.current) {
+      audioRef.current.src = songs[Math.floor(Math.random() * songs.length)];
+    }
   }, []);
 
   const togglePlay = () => {
