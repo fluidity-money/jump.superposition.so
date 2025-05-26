@@ -150,7 +150,7 @@ export default function Home() {
           <button onClick={togglePlay} style={{ padding: '10px 20px', borderRadius: '8px', cursor: 'pointer' }}>
             {isPlaying ? 'Pause Music' : 'Play Music'}
           </button>
-          <a href="https://unsplash.com/photos/cluster-of-star-illustration-f7YQo-eYHdM" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '15px',  padding: '10px 20px', borderRadius: '8px', cursor: 'pointer', backgroundColor: 'white',  }}>
+          <a href="https://unsplash.com/photos/cluster-of-star-illustration-f7YQo-eYHdM" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '15px',  padding: '10px 20px', borderRadius: '8px', cursor: 'pointer', backgroundColor: 'white', color: 'black' }}>
             Image credits
           </a>
         </div>
