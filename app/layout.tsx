@@ -1,10 +1,9 @@
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Head from 'next/head'
 import './globals.css'
 
-const _inter = Inter({ subsets: ['latin'] })
+const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
   title: 'Superposition Jump',
@@ -23,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={_inter.className}>
         <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
       </body>
     </html>

@@ -147,10 +147,10 @@ export default function Home() {
           </div>
         </div>
         <div style={{ position: 'absolute', bottom: '20px', left: '20px', display: 'flex', alignItems: 'center' }}>
-          <button onClick={togglePlay} style={{ padding: '10px 20px', borderRadius: '8px', cursor: 'pointer' }}>
+          <button onClick={togglePlay} style={{ padding: '10px 20px', borderRadius: '8px', cursor: 'pointer', backgroundColor: 'black', color: 'white', borderColor: 'black', boxShadow: '0 3px 6px rgba(255,255,255,0.3)', height: 40, fontSize: '15px', fontWeight: 'bold' }}>
             {isPlaying ? 'Pause Music' : 'Play Music'}
           </button>
-          <a href="https://unsplash.com/photos/cluster-of-star-illustration-f7YQo-eYHdM" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '15px',  padding: '10px 20px', borderRadius: '8px', cursor: 'pointer', backgroundColor: 'white', color: 'black' }}>
+          <a href="https://unsplash.com/photos/cluster-of-star-illustration-f7YQo-eYHdM" target="_blank" rel="noopener noreferrer" style={{ marginLeft: '15px', padding: '10px 20px', borderRadius: '8px', cursor: 'pointer', backgroundColor: 'white', color: 'black', height: 40, fontSize: '15px', fontWeight: 'bold' }}>
             Image credits
           </a>
         </div>
