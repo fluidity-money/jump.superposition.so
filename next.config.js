@@ -8,4 +8,5 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
+// empty
 module.exports = nextConfig
