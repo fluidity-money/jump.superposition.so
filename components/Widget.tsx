@@ -9,7 +9,10 @@ export function Widget() {
     variant: "wide",
     appearance: "system",
     fee: 0.01,
+    fromChain: 1,
+    fromToken: "0x0000000000000000000000000000000000000000",
     toChain: 55244,
+    toToken: "0x0000000000000000000000000000000000000000",
     theme: {
       colorSchemes: {
         light: {
